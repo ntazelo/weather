@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Weather</title>
+   <link rel="stylesheet"  href="src/css/app.css"> 
+   <link rel="manifest" href="manifest.json">
+   <meta name="apple-mobile-web-app-capable" content='yes'>
+   <meta name="apple-mobile-web-app-status-bar-style" content='black'>
+   <meta name="apple-mobile-web-app-title" content='weather'>
+   <script src="https://kit.fontawesome.com/507a4f2bb1.js" crossorigin="anonymous"></script>
+   <link rel='apple-touch-icon' href="src/images/small.png">
+   <link rel='apple-touch-icon' href="src/images/medium.png">
+   <link rel='apple-touch-icon' href="src/images/large.png">
+   <meta name="msapplication-TileImage" content="src/images/small.png"> 
+   <meta name="msapplication-TileColor" content="#fff">
+   <meta name="theme-color" content="#3F51B5"> 
+</head>
+<body>
+   <header class='navbar--weather__app'>
+      <h1 class="title">Weather</h1>
+   </header>
+   
+   <main >
+      
+      <div class="main--search">
+         
+         <button class="btn--search__wth">
+            
+            Get the weather
+         </button>
+         
+      </div>
+      <div class="main--result">
+
+        <div class="cont">
+              <div class="indic hand-up">
+                  <i class="fas fa-hand-point-up fa-5x" style="color:white"></i>
+               </div>
+              <div class="indic hand-left">
+               <i class="fas fa-hand-point-left fa-9x" style="color:white"></i>
+              </div> 
+            
+            
+            <ul class='res__weather'>
+               
+               <li >
+                  <span class='field'>temp :</span>
+                  <span class="res__data__temp fresh_color"> </span>
+               </li>
+               <li >
+                  <span class='field'>city :</span>
+                  <span class="res__data__town  fresh_color"> </span>
+               </li>
+
+               
+               <li >
+                  <span class='field'>sunrise :</span>
+                  <span class="res__data__sunrise fresh_color"> 35.5663456578577</span>
+               </li>
+               <li >
+                  <span class='field'>sunset :</span>
+                  <span class="res__data__sunset fresh_color"> 35.5663456578577</span>
+               </li>
+              
+               <li >
+                  <span class='field'>feels like :</span>
+                  <span class="res__data__feels_like fresh_color"> 23.09 </span>
+               </li>
+               <li >
+                  <span class='field'>pressure :</span>
+                  <span class="res__data__pressure fresh_color"> 23.09</span>
+               </li>
+               <li >
+                  <span class='field'>speed :</span>
+                  <span class="res__wind_speed fresh_color"> 56</span> </li>
+                  <li >
+               <li >
+                  <span class='field'>humidity :</span>
+                  <span class="res__data__humidity fresh_color"> 23.09</span>
+               </li>
+               
+            </ul>
+            <ul class='res__weather'>
+               <li >
+                  <span class='field'>description :</span>
+                  <span class="res__data__description fresh_color"> 23.09</span>
+               </li>
+               
+
+               <li >
+                  <span class='field'>dt :</span>
+                  <span class="res__data__dt fresh_color"> 35.5663456578577</span>
+               </li>
+               
+               <li >
+                  
+                  <span class='field'>dew point :</span>
+                  
+                  <span class="res__data__dew_point fresh_color"></span>  
+                  
+               </li>
+               
+              
+               <li >
+                  <span class='field'>clouds :</span>
+                  <span class="res__data__clouds fresh_color"> 56</span>  </li>
+                  <li >
+                     <span class='field'>visibility :</span>
+                     <span class="res__data__visibility fresh_color"> 56 </span></li>
+                     
+                           <span class='field'>wind_deg :</span>
+                           <span class="res__data__wind_deg fresh_color"> 23.09</span>
+                        </li>
+                        <li>
+                           <span class="field">date :</span>
+                           <span class="field_date fresh_color"></span>
+                        </li>
+                     </ul>
+                     
+                  </div>
+                  
+               </div>
+            </main>
+            
+            
+            
+            
+            
+            
+            
+         </div>
+         
+         
+         
+         <script src="src/js/app.js"></script>   
+         <script src="src/js/weather.js"></script>
+      </body>
+      </html>
